@@ -4,7 +4,6 @@ tags: gardenEntry
 # Min Digitale Hage
 Dette er en [digital hage.](https://maggieappleton.com/garden-history) Hagen inneholder notater skrevet i [Obsidian](https://obsidian.md/). Disse er lagt ut offentlig slik at de eventuelt kan være til nytte for andre enn meg. De er krydret med skrivefeil, merkelige formuleringer og rotete struktur.
 
-
 Noen av linkene leder til tomme sider. Dette kan være fordi notatet enda ikke finnes, eller fordi jeg ikke har publisert notatet.
 
 Denne oversikt-siden er i seg selv et notat, og inneholder linker til notater som jeg tror kan være interessante for andre enn meg. 
