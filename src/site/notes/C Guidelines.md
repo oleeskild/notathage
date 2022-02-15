@@ -1,6 +1,5 @@
 [[Update Conference 2021]]
 ### C# Guidelines
-Av og med Brølifinakis
 Guidelines for NET6 og C#10
 
 **Records**
