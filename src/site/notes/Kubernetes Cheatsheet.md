@@ -197,12 +197,6 @@ Gir navnet "kubernetes-bootcamp" til deployment og bruker det gitte dockerbildet
 ```bash
 kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080
 ```
-Med denne kommandoen kan man nå containeren knyttet til deploymenten sin 8080 port vha
-```bash
-export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}') echo NODE_PORT=$NODE_PORT
-```
-`curl $VM_IP:$NODE_PORT`
-(Merk at NODE_PORT ikke er 8080. Dette er en randomly assigned port på VMen som proxyer videre til port 8080 hos containeren).
 
 **Scale en deployment til 4 instanser/pods**
 ```bash
