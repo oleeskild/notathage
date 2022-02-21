@@ -33,25 +33,26 @@ The code for the website is available in the repo you created in step 3, and thi
 
 ## Content support
 The plugin currently supports rendering of these types of note contents:
-* Basic Markdown Syntax
+### Basic Markdown Syntax
 	**Bold text** follwed by *italic text*
 * Code Blocks
 ```javascript
 let a = 5;
 ```
-* Admonitions
-	```ad-note
+### Admonitions
+```ad-note
 	Information
-	```
-	```ad-warning
-	This is a warning
-	```
-* MathJax
+```
 
+```ad-warning
+	This is a warning
+```
+
+### MathJax
 $\frac{1}{0} = \infty$
 
-* Embedded/Transcluded Images
-* Mermaid diagrams
+### Embedded/Transcluded Images
+### Mermaid diagrams
 	```mermaid
 	graph LR;
 	A-->B
@@ -68,4 +69,4 @@ $\frac{1}{0} = \infty$
 	    another task     : 24d
 	```
 ## Not yet supported
-Excalidraw
+### Excalidraw
