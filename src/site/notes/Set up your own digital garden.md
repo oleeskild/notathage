@@ -1,8 +1,7 @@
 # Set up your digital garden
 
 # Obsidian Digital Garden
-Publish your notes in your own personal digital garden. 
-An example can be found [here](https://ole.dev/garden)
+Publish your notes in your own personal digital garden, using [Obsidian](https://obsidian.md/) as the editor and publishing platform.
 
 ## Configuration
 It's a bit of work to set this all up, but when you're done you'll have a digital garden in which you are in control of every part of it, and can customize it as you see fit. Which is what makes digital gardens so delightful.
