@@ -50,9 +50,6 @@ let a = 5;
 ```
 
 ### MathJax
-```
-$$\frac{1}{0} = \infty$$
-```
 
 $$\frac{1}{0} = \infty$$
 
