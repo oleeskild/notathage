@@ -47,7 +47,9 @@ let a = 5;
 	This is a warning
 	```
 * MathJax
+
 $\frac{1}{0} = \infty$
+
 * Embedded/Transcluded Images
 * Mermaid diagrams
 	```mermaid
