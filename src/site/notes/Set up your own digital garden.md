@@ -34,12 +34,13 @@ The code for the website is available in the repo you created in step 3, and thi
 ## Content support
 The plugin currently supports rendering of these types of note contents:
 ### Basic Markdown Syntax
-	**Bold text** follwed by *italic text*
-* Code Blocks
+**Bold text** follwed by *italic text*
+### Code Blocks
 ```javascript
 let a = 5;
 ```
 ### Admonitions
+
 ```ad-note
 	Information
 ```
@@ -57,11 +58,12 @@ $$\frac{1}{0} = \infty$$
 
 ### Embedded/Transcluded Images
 ### Mermaid diagrams
-	```mermaid
+```mermaid
 	graph LR;
-	A-->B
-	```
-	```mermaid
+		A-->B
+```
+	
+```mermaid
 	gantt
 	    title A Gantt Diagram
 	    dateFormat  YYYY-MM-DD
@@ -71,6 +73,6 @@ $$\frac{1}{0} = \infty$$
 	    section Another
 	    Task in sec      :2014-01-12  , 12d
 	    another task     : 24d
-	```
+```
 ## Not yet supported
 ### Excalidraw
