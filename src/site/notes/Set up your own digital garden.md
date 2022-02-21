@@ -32,7 +32,7 @@ Congratulations, you now have your own digital garden, hosted free of charge.
 The code for the website is available in the repo you created in step 3, and this is yours to modify however you want. If you know some css you can change the styling on your page by modifying the styles.css file. Netlify will automatically update your site when you make changes to the code.
 
 ## Content support
-The plugin currently supports rendering of these types of note contents:
+The plugin currently supports rendering these types of note contents:
 ### Basic Markdown Syntax
 **Bold text** follwed by *italic text*
 ### Code Blocks
