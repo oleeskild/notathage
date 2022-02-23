@@ -77,6 +77,7 @@ $$\frac{1}{0} = \infty$$
 	    Task in sec      :2014-01-12  , 12d
 	    another task     : 24d
 ```
+![[Transcluded Text Example]]
 ## Not yet supported
 ### Excalidraw
 
