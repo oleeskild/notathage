@@ -16,7 +16,7 @@ module.exports = function(eleventyConfig) {
             }
             if (token.info === 'transclusion') {
                 const code = token.content.trim();
-                return `<div class="transclusion">${code}</div>`;
+                return `<div class="transclusion">${md.render(code)}</div>`;
             }
 
             // Other languages
