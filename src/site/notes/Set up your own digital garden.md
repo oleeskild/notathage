@@ -61,7 +61,8 @@ $$\frac{1}{0} = \infty$$
 
 
 ```transclusion
-#Transcluded Text Example
+# Transcluded Text Example
+
 This is text from another document
 ```
 
