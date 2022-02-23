@@ -79,6 +79,19 @@ div.transclusion{
     padding-left: 10px;
 }
 
+.external-link::after {
+    content: '🔗';
+    position: absolute;
+    top: -4px;
+    right: -7px;
+    font-size: 12px;
+}
+
+.external-link {
+    padding-right: 8px;
+    position: relative;
+}
+
 pre[class*="language-ad-"]::before {
     display: block;
     font-size: 1.4rem;
