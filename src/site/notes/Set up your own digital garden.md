@@ -59,13 +59,7 @@ $$\frac{1}{0} = \infty$$
 
 ### Transcluded documents
 
-
-```transclusion
-# Transcluded Text Example
-
-This is text from another document
-```
-
+![[Transcluded Text Example]]
 
 ### Mermaid diagrams
 ```mermaid
@@ -87,6 +81,8 @@ This is text from another document
 
 ## Not yet supported
 ### Excalidraw
+
+--- 
 
 ```ad-info
 If you are interested in how the markdown file behind this page looks, you can take a look at it [here](https://github.com/oleeskild/notathage/blob/main/src/site/notes/Set%20up%20your%20own%20digital%20garden.md?plain=1)
