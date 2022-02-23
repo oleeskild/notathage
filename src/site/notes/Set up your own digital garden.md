@@ -65,7 +65,12 @@ $$\frac{1}{0} = \infty$$
 ![[Transcluded Document]]
 ```
 
-![[Transcluded Text Example]]
+
+```transclusion
+#Transcluded Text Example
+This is text from another document
+```
+
 
 ### Mermaid diagrams
 ```mermaid
