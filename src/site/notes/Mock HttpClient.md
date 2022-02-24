@@ -27,3 +27,4 @@ var httpClient = new HttpClient(handlerMock.Object)
    BaseAddress = new Uri("http://test.com/"),
 };
 ```
+
