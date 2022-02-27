@@ -1,6 +1,3 @@
----
-permalink: kubernetes
----
 # Kubernetes Cheatsheet
 ## Kubernetes Cluster
 Kubernetes koordinerer et cluster av datamaskiner som er koplet sammen til å jobbe som en enkel enhet. Det er altså et abstraheringslag over VMer. Et kubernetes-kluster er det man kaller en instanse av Kubernetes. Klusteret sin oppgave er å automatisere applikasjons (docker) containere effektivt. 
