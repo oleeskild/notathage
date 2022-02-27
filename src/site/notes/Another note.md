@@ -1,0 +1,1 @@
+This is another not that was linked from the [[Set up your own digital garden]] note.
