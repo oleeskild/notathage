@@ -1,39 +1,42 @@
+---
+permalink: kubernetes
+---
 # Kubernetes Cheatsheet
 ## Kubernetes Cluster
-Kubernetes koordinerer et cluster av datamaskiner som er koplet sammen til Ã¥ jobbe som en enkel enhet. Det er altsÃ¥ et abstraheringslag over VMer. Et kubernetes-kluster er det man kaller en instanse av Kubernetes. Klusteret sin oppgave er Ã¥ automatisere applikasjons (docker) containere effektivt. 
-Et kluster bestÃ¥r av:
+Kubernetes koordinerer et cluster av datamaskiner som er koplet sammen til å jobbe som en enkel enhet. Det er altså et abstraheringslag over VMer. Et kubernetes-kluster er det man kaller en instanse av Kubernetes. Klusteret sin oppgave er å automatisere applikasjons (docker) containere effektivt. 
+Et kluster består av:
 * Control Plane
 * Noder
 
 ## Control plane oppgaver
 * Koorinderer kluseteret
-* Holder Ã¸nsket state til applikasjonen
+* Holder ønsket state til applikasjonen
 * Skalerer
 * Ruller ut oppdateringer
 * Stedet der "Deployments" ligger
 
 ## Node
-* Arbeiderne som kjÃ¸rer applikasjonen
+* Arbeiderne som kjører applikasjonen
 * Er en VM eller en fysisk maskin
 * En node kan ha flere applikasjoner
 * Hver node har en Kubelet som er en agent som snakker med Control Plane. 
 * Kommuniserer med Control Plane via Kubernetes API. Dette APIet blir eksponert av control plane. Som bruker kan man interagere med dette APIet direkte.
-* Man bÃ¸r ha minst 3 noder fordi om 1 node gÃ¥r ned sÃ¥ vil bÃ¥de en etcd og en control plane instanse mistes og man har ikke lenger redundancy (forstÃ¥ ikke hvorfor de sier dette? Er control plane egentlig bare enda en node?)
+* Man bør ha minst 3 noder fordi om 1 node går ned så vil både en etcd og en control plane instanse mistes og man har ikke lenger redundancy (forstå ikke hvorfor de sier dette? Er control plane egentlig bare enda en node?)
 * En node kan ha flere pods.
-* Hver node kjÃ¸rer minium to ting:
-	* Kubelet, en prosess som har ansvar for Ã¥ kommunisere med control plane og noden. Den manager Podsene som kjÃ¸rer pÃ¥ en maskin
-	* Et container runtime (som Docker) som er ansvarlig for Ã¥ pulle bilder, og kjÃ¸re applikasjoner. 
+* Hver node kjører minium to ting:
+	* Kubelet, en prosess som har ansvar for å kommunisere med control plane og noden. Den manager Podsene som kjører på en maskin
+	* Et container runtime (som Docker) som er ansvarlig for å pulle bilder, og kjøre applikasjoner. 
 ![](https://d33wubrfki0l68.cloudfront.net/5cb72d407cbe2755e581b6de757e0d81760d5b86/a9df9/docs/tutorials/kubernetes-basics/public/images/module_03_nodes.svg)
 
 ## Kubrenetes Deployments
-For Ã¥ deploye en (dockerized) applikasjon i et kluster sÃ¥ mÃ¥ man lage en "Deployment configuration". Denne forteller Kubernetes hvordan man lager og oppdaterer instanser av appen. NÃ¥r det er laget vil en Kubernetes Deployment Controller kontinuerlig overvÃ¥ke instansene til denne appen. Dersom en Node gÃ¥r ned vil denne kontrolleren erstatte instansen med en instanse pÃ¥ en annen node i klusteret. Controlleren lever i Control Plane. 
-Forskjellen fra vanlige startup script er altsÃ¥ at i tillegg til Ã¥ starte apper sÃ¥ holder Kubernetes Deployments dem oppe pÃ¥ tvers av noder. 
+For å deploye en (dockerized) applikasjon i et kluster så må man lage en "Deployment configuration". Denne forteller Kubernetes hvordan man lager og oppdaterer instanser av appen. Når det er laget vil en Kubernetes Deployment Controller kontinuerlig overvåke instansene til denne appen. Dersom en Node går ned vil denne kontrolleren erstatte instansen med en instanse på en annen node i klusteret. Controlleren lever i Control Plane. 
+Forskjellen fra vanlige startup script er altså at i tillegg til å starte apper så holder Kubernetes Deployments dem oppe på tvers av noder. 
 
 ## Pod
 [Dokumentasjon](https://kubernetes.io/docs/concepts/workloads/pods/)
 Pods er minste mulige computing enhet man kan deploye i Kubernetes. (Kan kalles Kubernetes' atomiske enhet)
-Det er en grupper med 1 eller flere containere, og disse deler lagringsplass og nettverksressurser. Tanken er at den skal modellere en applikasjons-spesifikk "logisk host". Applikasjons containerene som befinner seg i en pod skal vÃ¦re tightly coupled (Se [[Coupling]]). De deler IP-adresse og port-space og kjÃ¸rer alltid i en delt kontekst pÃ¥ samme node. 
-Slik ser en konfigurasjonsfil for Ã¥ kjÃ¸re en pod med 1 docker container ut:
+Det er en grupper med 1 eller flere containere, og disse deler lagringsplass og nettverksressurser. Tanken er at den skal modellere en applikasjons-spesifikk "logisk host". Applikasjons containerene som befinner seg i en pod skal være tightly coupled (Se [[Coupling]]). De deler IP-adresse og port-space og kjører alltid i en delt kontekst på samme node. 
+Slik ser en konfigurasjonsfil for å kjøre en pod med 1 docker container ut:
 ```yaml
 apiVersion: v1
 kind: Pod
@@ -48,26 +51,26 @@ spec:
 
 ```
 
-Eksempel pÃ¥ en Pod med flere instanser er en Pod som inneholder en Node.js app sÃ¥vel som en annen container som feeder dataene som Node.js webserveren skal publisere. 
-Ofte vil man bare kjÃ¸re en instanse per pod. De skal bare kjÃ¸re i samme dersom de er nÃ¸dt til Ã¥ dele ressurser slik som samme diskplass. 
+Eksempel på en Pod med flere instanser er en Pod som inneholder en Node.js app såvel som en annen container som feeder dataene som Node.js webserveren skal publisere. 
+Ofte vil man bare kjøre en instanse per pod. De skal bare kjøre i samme dersom de er nødt til å dele ressurser slik som samme diskplass. 
 
 ![](https://d33wubrfki0l68.cloudfront.net/fe03f68d8ede9815184852ca2a4fd30325e5d15a/98064/docs/tutorials/kubernetes-basics/public/images/module_03_pods.svg)
 
 ## Nettverk
-Pods som kjÃ¸rer inne i Kubernetes kjÃ¸rer pÃ¥ et privat isolert nettverk. Default-oppfÃ¸rselen er at de kan sees fra ande pods og tjenester i samme kluster, men ikke fra utsiden av dette nettverket. For Ã¥ kommunisere med applikasjonen vÃ¥r mÃ¥ vi altsÃ¥ ta i bruk kubectl som igjen bruker et eksponert API endepunkt. 
-Vha. kubectl kan man lage en proxy som forwarder kommunikasjon inn til det private nettverket for Ã¥ kunne snakke med APIet direkte. 
+Pods som kjører inne i Kubernetes kjører på et privat isolert nettverk. Default-oppførselen er at de kan sees fra ande pods og tjenester i samme kluster, men ikke fra utsiden av dette nettverket. For å kommunisere med applikasjonen vår må vi altså ta i bruk kubectl som igjen bruker et eksponert API endepunkt. 
+Vha. kubectl kan man lage en proxy som forwarder kommunikasjon inn til det private nettverket for å kunne snakke med APIet direkte. 
 
 ## Service
-Servicer er en abstrahering som definerer et logisk sett med Pods og en policy for Ã¥ kunne nÃ¥ dem. Man trenger altsÃ¥ en Service (som altsÃ¥ bare er et sett med nettverksregler) for Ã¥ la pods motta trafikk fra utsiden av kubernetes klusteret. Man definerer en tjeneste med en YAML (eller JSON) fil. 
-Det finnes ulike mÃ¥ter Ã¥ eksponere en Servie pÃ¥. Disse velger man ved Ã¥ spesifisere "type" i ServiceSpec.
+Servicer er en abstrahering som definerer et logisk sett med Pods og en policy for å kunne nå dem. Man trenger altså en Service (som altså bare er et sett med nettverksregler) for å la pods motta trafikk fra utsiden av kubernetes klusteret. Man definerer en tjeneste med en YAML (eller JSON) fil. 
+Det finnes ulike måter å eksponere en Servie på. Disse velger man ved å spesifisere "type" i ServiceSpec.
 * ClusterIP (Default)
-	* Servicen blir eksponer pÃ¥ en intern IP i clusteret. Denne tjenesten kan kun nÃ¥s inne i klusteret
+	* Servicen blir eksponer på en intern IP i clusteret. Denne tjenesten kan kun nås inne i klusteret
 * NodePort
-	* Eksponerer en Service pÃ¥ samme port pÃ¥ alle de valgte Nodene i klusteret ved Ã¥ bruke [[NAT]]. Servicen kan da nÃ¥s fra utsiden av clustered ved Ã¥ bruke `<NodeIP>:<NodePort>`.  Man nÃ¥r altsÃ¥ Servicen ved Ã¥ gÃ¥ via en Node og en spesiell port, som da proxyer videre inn til servicen. Supersett av ClusterIP, sÃ¥ den har fortsatt egen intern IP, men kan altsÃ¥ ogsÃ¥ nÃ¥s via Nodes om man har satt opp disse til Ã¥ ha ekstern IP adresse f.eks. Da kan man sette opp sin egen loadbalancer konfigurasjon ved Ã¥ proxye gjennom en node.
+	* Eksponerer en Service på samme port på alle de valgte Nodene i klusteret ved å bruke [[NAT]]. Servicen kan da nås fra utsiden av clustered ved å bruke `<NodeIP>:<NodePort>`.  Man når altså Servicen ved å gå via en Node og en spesiell port, som da proxyer videre inn til servicen. Supersett av ClusterIP, så den har fortsatt egen intern IP, men kan altså også nås via Nodes om man har satt opp disse til å ha ekstern IP adresse f.eks. Da kan man sette opp sin egen loadbalancer konfigurasjon ved å proxye gjennom en node.
 * LoadBalancer
-	* Lager en extern [[Load Balancer]] i clouden man er i (om det er stÃ¸ttet), og gir en fixed extern IP to tjenesten. Supertset av NodePort. Det er altsÃ¥ en ferdig implementert LoadBalancer som bruker NodePort implementasjonen for Ã¥ eksponere seg ut fra det interne klusternettverket.
+	* Lager en extern [[Load Balancer]] i clouden man er i (om det er støttet), og gir en fixed extern IP to tjenesten. Supertset av NodePort. Det er altså en ferdig implementert LoadBalancer som bruker NodePort implementasjonen for å eksponere seg ut fra det interne klusternettverket.
 * Externalname
-	* Lager et CNAME record for Ã¥ kunne nÃ¥ noe utenfor clusteret. F.eks. kan man mappe en tjeneste (som fÃ¥r en lokal adresse i clusteret), til et eksternt navn. Dette skjer pÃ¥ DNS nivÃ¥, og ikke proxy nivÃ¥. F.eks. vil en Service definition for Ã¥ nÃ¥ en database pÃ¥ utsiden se slik ut:
+	* Lager et CNAME record for å kunne nå noe utenfor clusteret. F.eks. kan man mappe en tjeneste (som får en lokal adresse i clusteret), til et eksternt navn. Dette skjer på DNS nivå, og ikke proxy nivå. F.eks. vil en Service definition for å nå en database på utsiden se slik ut:
 
 ```yaml
 apiVersion: v1
@@ -82,32 +85,32 @@ spec:
 * Da vil my-service.prod.svc.cluster.local returnere en CNAME record med verdien my.database.example.com.
 
 ### Labels og selector
-Servier er som sagt en abstrahering over et sett med Pods. MÃ¥ten man matcher et POds sett pÃ¥ er ved Ã¥ bruke labels og selectors. Det er en primitiv som lar deg gjÃ¸re logiske operasjoner pÃ¥ Kubernetes objekter. Labels er key-value pairs (app=myappname) som er knyttet til objekter. 
-Man kan bruke det til Ã¥ lage egne objekter for dev, test og prod. Man kan lage versjonerings tags, eller man kan klassifisere objekter med tag. Selector er "operasjonen" av Ã¥ velge objekter basert pÃ¥ labels. 
+Servier er som sagt en abstrahering over et sett med Pods. Måten man matcher et POds sett på er ved å bruke labels og selectors. Det er en primitiv som lar deg gjøre logiske operasjoner på Kubernetes objekter. Labels er key-value pairs (app=myappname) som er knyttet til objekter. 
+Man kan bruke det til å lage egne objekter for dev, test og prod. Man kan lage versjonerings tags, eller man kan klassifisere objekter med tag. Selector er "operasjonen" av å velge objekter basert på labels. 
 ![](https://d33wubrfki0l68.cloudfront.net/7a13fe12acc9ea0728460c482c67e0eb31ff5303/2c8a7/docs/tutorials/kubernetes-basics/public/images/module_04_labels.svg)
 
 
 ## Ingress
-Ingress er ikke det samme som en service, men en mÃ¥te Ã¥ eksponere en Service pÃ¥. Den fungerer som et entry point for clusteret ditt. Den kan eksponere flere Serivcer under samme IP-adresse. F.eks. kan man lage en NGINX ingress som igjen kan mappe forskjellige hostnames til forskjellige Servicer. 
+Ingress er ikke det samme som en service, men en måte å eksponere en Service på. Den fungerer som et entry point for clusteret ditt. Den kan eksponere flere Serivcer under samme IP-adresse. F.eks. kan man lage en NGINX ingress som igjen kan mappe forskjellige hostnames til forskjellige Servicer. 
 
 # Deployment og Scaling
-En deployment lever i control plane delen av kubernetes. Den deployer en logisk applikasjon. F.eks. vil en webserver bare ha en deployment med Ã©n pod. Men nÃ¥r trafikken Ã¸ker mÃ¥ vi skalere appen vÃ¥r.
-Scaling skjer ved Ã¥ endre antall replicas i en Deployment.
-NÃ¥r det skjer en Scaling av en Deployment sÃ¥ vli nye Pods bli opprettet til Noder som har ledige ressurser. Podsene kan vÃ¦re pÃ¥ forskjellige Noder, eller samme Node, eller begge deler. Man kan scale bÃ¥de manuelt og automatisk. 
-I tillegg, nÃ¥r man har flere instanser av en application, sÃ¥ kan man rulle ut oppdateringer uten downtime. Servicer vil automatisk distribuere trafikken mellom alle Pods av en eksponert Deployment. 
+En deployment lever i control plane delen av kubernetes. Den deployer en logisk applikasjon. F.eks. vil en webserver bare ha en deployment med én pod. Men når trafikken øker må vi skalere appen vår.
+Scaling skjer ved å endre antall replicas i en Deployment.
+Når det skjer en Scaling av en Deployment så vli nye Pods bli opprettet til Noder som har ledige ressurser. Podsene kan være på forskjellige Noder, eller samme Node, eller begge deler. Man kan scale både manuelt og automatisk. 
+I tillegg, når man har flere instanser av en application, så kan man rulle ut oppdateringer uten downtime. Servicer vil automatisk distribuere trafikken mellom alle Pods av en eksponert Deployment. 
 
 ### Replica sets
-En deployment vil lage et ReplicaSet. Dette sier noe om hvor mange instanser vi Ã¸nsker av deploymenten vÃ¥r. 
+En deployment vil lage et ReplicaSet. Dette sier noe om hvor mange instanser vi ønsker av deploymenten vår. 
 
 ### Rolling updates
-Man kan oppdatere Deployments fortlÃ¸pende med zero downtime ved Ã¥ inkrementerende erstatte pod instanser med nye. Man lager altsÃ¥ nye pods med oppdatert kode, fÃ¸r man litt etter litt endrer servicen til Ã¥ peke pÃ¥ de nye Podsene (som nÃ¥ har nye IP-adresser siden de er nye Pods), fÃ¸r de gamle podsene termineres. Hver update fÃ¥r en versjon og etter man har deployet kan man reversere tilbake til en tidligere versjon dersom noe gikk galt.
+Man kan oppdatere Deployments fortløpende med zero downtime ved å inkrementerende erstatte pod instanser med nye. Man lager altså nye pods med oppdatert kode, før man litt etter litt endrer servicen til å peke på de nye Podsene (som nå har nye IP-adresser siden de er nye Pods), før de gamle podsene termineres. Hver update får en versjon og etter man har deployet kan man reversere tilbake til en tidligere versjon dersom noe gikk galt.
 
 
-# VerktÃ¸y
+# Verktøy
 
 
 ## Minikube
-En lightweight Kubernetest implementasjon. Lager en VM pÃ¥ lokalmaskinen og deployer et cluster som inneholder 1 node. Kommer med et CLI for Ã¥ jobbe med clusteret. 
+En lightweight Kubernetest implementasjon. Lager en VM på lokalmaskinen og deployer et cluster som inneholder 1 node. Kommer med et CLI for å jobbe med clusteret. 
 
 ### Cheatsheet
 
@@ -120,7 +123,7 @@ minikube start
 
 
 ## Kubectl
-Cli for Ã¥ snakke med Kubernetes. Bruker Kubernetes API for Ã¥ interagere med klusteret. 
+Cli for å snakke med Kubernetes. Bruker Kubernetes API for å interagere med klusteret. 
 Formatet er vanligvis: `kubectl action resource.` Man kan bruke `--help` bak kommandoer. 
 
 ### Cheatsheet
@@ -141,7 +144,7 @@ kubectl get <resource-type>
 kubectl describe <resource-type>
 # ex resource-type => pods, services
 ```
-Describe kommandoen skal printe i menneske-leselig format, og bÃ¸r ikke brukes i scripting sammenheng.
+Describe kommandoen skal printe i menneske-leselig format, og bør ikke brukes i scripting sammenheng.
 
 **Vis detaljer om spesifikk service**
 ```bash
@@ -154,12 +157,12 @@ kubectl logs <resource>
 # ex resource => $POD_NAME
 ```
 
-**Eksekverer en kommando pÃ¥ en container i en pod**
+**Eksekverer en kommando på en container i en pod**
 ```bash
 kubectl exec $POD_NAME -- <command>
 #ex command => env, bash
 ```
-Om man har flere containere i en pod mÃ¥ man ogsÃ¥ spesifisere dette
+Om man har flere containere i en pod må man også spesifisere dette
 
 **Starte et interaktivt bash shell**
 ```bash
@@ -191,19 +194,25 @@ kubectl get rs
 ```bash
 kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1
 ```
-Gir navnet "kubernetes-bootcamp" til deployment og bruker det gitte dockerbildet. Finner en node som passer, starter appen pÃ¥ noden og konfugurerer klusteret til Ã¥ starte instansen pÃ¥ ny node nÃ¥r det trengs
+Gir navnet "kubernetes-bootcamp" til deployment og bruker det gitte dockerbildet. Finner en node som passer, starter appen på noden og konfugurerer klusteret til å starte instansen på ny node når det trengs
 
 **Eksponer en deployment til VM IPen**
 ```bash
 kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080
 ```
+Med denne kommandoen kan man nå containeren knyttet til deploymenten sin 8080 port vha
+```bash
+export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}') echo NODE_PORT=$NODE_PORT
+```
+`curl $VM_IP:$NODE_PORT`
+(Merk at NODE_PORT ikke er 8080. Dette er en randomly assigned port på VMen som proxyer videre til port 8080 hos containeren).
 
 **Scale en deployment til 4 instanser/pods**
 ```bash
 kubectl scale deployments/kubernetes-bootcamp --replicas=4
 ```
 
-**Rull ut oppdatering pÃ¥ deployment med nytt docker bilde**
+**Rull ut oppdatering på deployment med nytt docker bilde**
 ```bash
 kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2
 ```
@@ -222,19 +231,19 @@ kubectl rollout undo deployments/kubernetes-bootcamp
 ```bash
 kubectl get pods -l app=kubernetes-bootcamp
 ```
-Labelet app=appnavn blir laget automatisk ved deploy av en app. Man kan ogsÃ¥ gjÃ¸r samme selector pÃ¥ en Service som er knyttet til deployen
+Labelet app=appnavn blir laget automatisk ved deploy av en app. Man kan også gjør samme selector på en Service som er knyttet til deployen
 
-**Legg til nytt label pÃ¥ en pod**
+**Legg til nytt label på en pod**
 ```bash
 kubectl label pods $POD_NAME version=v1
 ```
 
-Poden vil da fÃ¥ en ny label: version=v1. Kan da hentes ut med
+Poden vil da få en ny label: version=v1. Kan da hentes ut med
 ```bash
 kubectl get pods -l version=v1
 ```
 
-**Slett tjeneste baser pÃ¥ label**
+**Slett tjeneste baser på label**
 ```bash
 kubectl delete service -l app=kubernetes-bootcamp
 ```
@@ -245,7 +254,7 @@ kubectl delete service -l app=kubernetes-bootcamp
 ```bash
 kubectl proxy
 ```
-Stoppes med control-C, og vil ikke vise noe output nÃ¥r den kjÃ¸rer. 
+Stoppes med control-C, og vil ikke vise noe output når den kjører. 
 
 
 
