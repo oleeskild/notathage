@@ -74,11 +74,6 @@ blockquote p {
     display: inline;
 }
 
-div.transclusion{
-    border-left: 4px solid gray;
-    padding-left: 10px;
-}
-
 .external-link::after {
     content: '🔗';
     position: absolute;
@@ -90,6 +85,11 @@ div.transclusion{
 .external-link {
     padding-right: 10px;
     position: relative;
+}
+
+div.translusion{
+    border-left: 4px solid gray;
+    padding-left: 10px;
 }
 
 pre[class*="language-ad-"]::before {
@@ -144,6 +144,7 @@ pre.language-ad-caution::before {
 pre.language-ad-info::before {
     content: "ℹ Info";
 }
+
 
 pre.language-ad-tip {
     background-color: rgb(5, 75, 22);
