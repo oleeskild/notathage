@@ -1,6 +1,3 @@
----
-{"dg-permalink":"test","permalink":"test/"}
----
 # Set up your digital garden
 
 # Obsidian Digital Garden
