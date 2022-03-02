@@ -17,7 +17,7 @@ Lets get started:
 
 ```
 ---
-{}
+dg-home: true
 ---
 ```
 
