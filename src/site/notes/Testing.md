@@ -1,5 +1,5 @@
 ---
-dg-permalink: hello/
+dg-permalink: hello
 permalink: hello/
 ---
 
