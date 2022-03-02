@@ -1,3 +1,6 @@
+---
+{"dg-permalink":"test","position":{"start":{"line":0,"col":0,"offset":0},"end":{"line":2,"col":3,"offset":28}},"permalink":"test/"}
+---
 # Set up your digital garden
 
 # Obsidian Digital Garden
@@ -17,7 +20,7 @@ Lets get started:
 
 ```
 ---
-undefined
+{"dg-permalink":"test","position":{"start":{"line":0,"col":0,"offset":0},"end":{"line":2,"col":3,"offset":28}},"permalink":"test/"}
 ---
 ```
 
