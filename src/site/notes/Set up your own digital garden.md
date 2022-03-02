@@ -17,7 +17,7 @@ Lets get started:
 
 ```
 ---
-tags: gardenEntry
+dg-home: true
 ---
 ```
 
