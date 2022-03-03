@@ -1,5 +1,5 @@
 ---
-tags: gardenEntry
+{"tags":"gardenEntry"}
 ---
 # Min Digitale Hage
 Dette er en [digital hage.](https://maggieappleton.com/garden-history) Hagen inneholder notater skrevet i [Obsidian](https://obsidian.md/). Disse er lagt ut offentlig slik at de eventuelt kan være til nytte for andre enn meg. De er krydret med skrivefeil, merkelige formuleringer og rotete struktur.
@@ -12,6 +12,7 @@ Om du er interessert i å sette opp din egen digitale hage har jeg laget en guid
 [[Set up your own digital garden]]
 
 ## Bok-sammendrag
+- [[How to Take Smart Notes Sammendrag]]
 - [[Make Time Sammendrag]]
 
 ## Konferanser
