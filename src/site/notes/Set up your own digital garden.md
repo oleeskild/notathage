@@ -117,7 +117,6 @@ This is text from another document with a transcluded image inside.
 	    Task in sec      :2014-01-12  , 12d
 	    another task     : 24d
 ```
-![|50](https://images.dog.ceo/breeds/tervuren/maverick.JPG)
 
 
 --- 
