@@ -120,9 +120,17 @@ This is text from another document with a transcluded image inside.
 	    another task     : 24d
 ```
 
+### Highlighted text
+==Here is some highlighted text==
+
+### Footnotes
+There is a footnote here [^1]
+
 
 --- 
 
 ```ad-info
 If you are interested in how the markdown file behind this page looks, you can take a look at it [here](https://github.com/oleeskild/notathage/blob/main/src/site/notes/Set%20up%20your%20own%20digital%20garden.md?plain=1)
 ```
+
+[^1]: Here are seom extra information in a footnote
