@@ -45,6 +45,8 @@ There are two commands available for publishing notes.
 2. The "Digital Garden: Publish Multiple Notes" command will publish all notes in your vault that have the dg-publish setting set to true. This way you can easily keep track of which notes you have published.
 (Protip: You can use the "DataView" plugin to list all published notes with this query: "list where dg-publish=true")
 
+There is also a Copy Garden URL command which will copy the url of the currently active note to your clipboard.
+
 ## Modifying the template/site
 The code for the website is available in the repo you created in step 3, and this is yours to modify however you want. If you know some css I encourage you to change the default styling to make the site your own. Please modify the custom-style.scss when doing so to avoid
 future conflict when updating the template. Netlify should automatically update your site when you make changes to the code.
