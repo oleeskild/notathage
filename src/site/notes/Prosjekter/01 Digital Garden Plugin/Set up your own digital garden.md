@@ -36,7 +36,7 @@ dg-publish: true
 8. Go to your site's URL which you should find on [Netlify](https://app.netlify.com). If nothing shows up yet, wait a minute and refresh. Your note should now appear.
 
 Congratulations, you now have your own digital garden, hosted free of charge! 
-You can now start adding links as you usually would in Obisidan, with double square brackets like this: [[Some Other Note]]) to the note that you just published. Remember to also publish the notes your are linking to as this will not happen automatically. This is by design. You are always in control of what notes you actually want to publish. If you did not publish a linked note, the link will simply lead to a site telling the user that this note does not exist. 
+You can now start adding links as you usually would in Obisidan, with double square brackets, to the note that you just published. Remember to also publish the notes your are linking to as this will not happen automatically. This is by design. You are always in control of what notes you actually want to publish. If you did not publish a linked note, the link will simply lead to a site telling the user that this note does not exist. 
 
 ## Commands
 There are two commands available for publishing notes.
