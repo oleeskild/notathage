@@ -1,5 +1,5 @@
 ---
-{"tags":"gardenEntry"}
+{"dg-home":true,"dg-publish":true,"permalink":"/hage/","tags":"gardenEntry"}
 ---
 # Min Digitale Hage
 Dette er en [digital hage.](https://maggieappleton.com/garden-history) Hagen inneholder notater skrevet i [Obsidian](https://obsidian.md/). Disse er lagt ut offentlig slik at de eventuelt kan være til nytte for andre enn meg. De er krydret med skrivefeil, merkelige formuleringer og rotete struktur.
@@ -9,64 +9,64 @@ Noen av linkene leder til tomme sider. Dette kan være fordi notatet enda ikke f
 Denne oversikt-siden er i seg selv et notat, og inneholder linker til notater som jeg tror kan være interessante for andre enn meg. 
 
 Om du er interessert i å sette opp din egen digitale hage har jeg laget en guide her: 
-[[Set up your own digital garden]]
+[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set up your own digital garden]]
 
 ## Bok-sammendrag
-- [[How to Take Smart Notes Sammendrag]]
-- [[Make Time Sammendrag]]
+- [[🎯 Område/Boksammendrag/How to Take Smart Notes Sammendrag|How to Take Smart Notes Sammendrag]]
+- [[🎯 Område/Boksammendrag/Make Time Sammendrag|Make Time Sammendrag]]
 
 ## Konferanser
-- [[Update Conference 2021]]
-- [[dotJS 2019]]
-- [[dotCSS 2019]]
+- [[🛠 Ressurser/Slipbox/Update Conference 2021|Update Conference 2021]]
+- [[🛠 Ressurser/Slipbox/dotJS 2019|dotJS 2019]]
+- [[🛠 Ressurser/Slipbox/dotCSS 2019|dotCSS 2019]]
 
 ## DevTools
 
 Liste over nyttige utviklerverktøy.
 
 ### Biblioteker
-- [[ApexCharts]]
-- [[Chakra UI]]
-- [[Scrollmagic js]]
-- [[Parallax js]]
+- [[🛠 Ressurser/DevTools/ApexCharts|ApexCharts]]
+- [[🛠 Ressurser/DevTools/Chakra UI|Chakra UI]]
+- [[🛠 Ressurser/DevTools/Scrollmagic js|Scrollmagic js]]
+- [[🛠 Ressurser/DevTools/Parallax js|Parallax js]]
 
 ### Dokumentasjon
-- [[Dev Hints]]
-- [[DevDocs]]
-- [[tldr pages]]
+- [[🛠 Ressurser/DevTools/Dev Hints|Dev Hints]]
+- [[🛠 Ressurser/DevTools/DevDocs|DevDocs]]
+- [[🛠 Ressurser/DevTools/tldr pages|tldr pages]]
 
 ### Ressurser
-- [[OpenPeeps]]
+- [[🛠 Ressurser/DevTools/OpenPeeps|OpenPeeps]]
 
 ### Tjenester
-- [[Oh shit git]]
-- [[Password Pusher]]
-- [[Carbon]]
-- [[Forward Email]]
+- [[🛠 Ressurser/DevTools/Oh shit git|Oh shit git]]
+- [[🛠 Ressurser/DevTools/Password Pusher|Password Pusher]]
+- [[🛠 Ressurser/DevTools/Carbon|Carbon]]
+- [[🛠 Ressurser/DevTools/Forward Email|Forward Email]]
 
 ### Verktøy
-- [[K6]]
-- [[Ranger]]
-- [[The Silver Searcher]]
-- [[ActionsFlow]]
-- [[Clearbit]]
-- [[DevToys]]
+- [[🛠 Ressurser/DevTools/K6|K6]]
+- [[🛠 Ressurser/DevTools/Ranger|Ranger]]
+- [[🛠 Ressurser/DevTools/The Silver Searcher|The Silver Searcher]]
+- [[🛠 Ressurser/DevTools/ActionsFlow|ActionsFlow]]
+- [[🛠 Ressurser/DevTools/Clearbit|Clearbit]]
+- [[🛠 Ressurser/DevTools/DevToys|DevToys]]
 
 ## Snippets
 Liste over kodesnutter og cheatsheets
-- [[Kubernetes Cheatsheet]]
-- [[Docker Cheatsheet]]
-- [[Rider Cheatsheet]]
-- [[TMUX cheatsheet]]
-- [[Vim Cheatsheet]]
-- [[Powershell cheatsheet]]
-- [[New Certificate]]
-- [[Mock HttpClient]]
-- [[Pandas Cheatsheet]]
-- [[SQL Login]]
-- [[Select json prop in sql]]
-- [[Watch in linux]]
-- [[Reverse shell mac]]
-- [[Git ekskluder lokalt]]
-* [[Git Cheatsheet]]
-* [[Nuget Cheatsheet]]
+- [[🛠 Ressurser/💻 Snippets/Kubernetes Cheatsheet|Kubernetes Cheatsheet]]
+- [[🛠 Ressurser/💻 Snippets/Docker Cheatsheet|Docker Cheatsheet]]
+- [[🛠 Ressurser/💻 Snippets/Rider Cheatsheet|Rider Cheatsheet]]
+- [[🛠 Ressurser/💻 Snippets/TMUX cheatsheet|TMUX cheatsheet]]
+- [[🛠 Ressurser/💻 Snippets/Vim Cheatsheet|Vim Cheatsheet]]
+- [[🛠 Ressurser/💻 Snippets/Powershell cheatsheet|Powershell cheatsheet]]
+- [[🛠 Ressurser/💻 Snippets/New Certificate|New Certificate]]
+- [[🛠 Ressurser/💻 Snippets/Mock HttpClient|Mock HttpClient]]
+- [[🛠 Ressurser/💻 Snippets/Pandas Cheatsheet|Pandas Cheatsheet]]
+- [[🛠 Ressurser/💻 Snippets/SQL Login|SQL Login]]
+- [[🛠 Ressurser/💻 Snippets/Select json prop in sql|Select json prop in sql]]
+- [[🛠 Ressurser/💻 Snippets/Watch in linux|Watch in linux]]
+- [[🛠 Ressurser/💻 Snippets/Reverse shell mac|Reverse shell mac]]
+- [[🛠 Ressurser/💻 Snippets/Git ekskluder lokalt|Git ekskluder lokalt]]
+* [[🛠 Ressurser/💻 Snippets/Git Cheatsheet|Git Cheatsheet]]
+* [[🛠 Ressurser/💻 Snippets/Nuget Cheatsheet|Nuget Cheatsheet]]
