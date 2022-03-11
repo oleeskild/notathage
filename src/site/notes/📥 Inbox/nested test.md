@@ -25,8 +25,6 @@ watch -d -n 5 az network vnet-gateway list --output table
 
 
 
-Text with some footnote [^1] 
-
----
+Text with some footnote [^1]
 
 [^1]: Here is some notes
