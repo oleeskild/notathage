@@ -10,3 +10,4 @@ Følg med på endringer av en kommando i linux
 ```bash
 watch -d -n 5 az network vnet-gateway list --output table
 ```
+
