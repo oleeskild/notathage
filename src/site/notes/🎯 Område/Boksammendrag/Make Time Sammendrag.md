@@ -1,6 +1,7 @@
 ---
 {"dg-publish":true,"permalink":"/omrade/boksammendrag/make-time-sammendrag/"}
 ---
+
 # Make Time: Sammendrag
 Sammendrag fra boka [[🛠 Ressurser/👓 Readwise/Books/Make Time|Make Time]]
 
