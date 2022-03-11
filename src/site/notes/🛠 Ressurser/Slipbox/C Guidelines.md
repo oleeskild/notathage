@@ -1,6 +1,7 @@
 ---
 {"dg-publish":true,"permalink":"/ressurser/slipbox/c-guidelines/"}
 ---
+
 [[🛠 Ressurser/Slipbox/Update Conference 2021|Update Conference 2021]]
 ### C# Guidelines
 Guidelines for NET6 og C#10
