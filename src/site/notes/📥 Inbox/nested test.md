@@ -5,7 +5,7 @@ Testing a note
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Prosjekter/01 Digital Garden Plugin/Set up your own digital garden#Configuration]]
 
 ```transclusion
-# Watch in linux
+# Custom Title
 
 # Watch in linux
 
