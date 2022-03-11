@@ -68,5 +68,5 @@ Liste over kodesnutter og cheatsheets
 - [[🛠 Ressurser/💻 Snippets/Watch in linux|Watch in linux]]
 - [[🛠 Ressurser/💻 Snippets/Reverse shell mac|Reverse shell mac]]
 - [[🛠 Ressurser/💻 Snippets/Git ekskluder lokalt|Git ekskluder lokalt]]
-* [[🛠 Ressurser/💻 Snippets/Git Cheatsheet|Git Cheatsheet]]
+- [[🛠 Ressurser/💻 Snippets/Git Cheatsheet|Git Cheatsheet]]
 * [[🛠 Ressurser/💻 Snippets/Nuget Cheatsheet|Nuget Cheatsheet]]
