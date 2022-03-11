@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"notes/set-up-your-own-digital-garden","permalink":"/notes/set-up-your-own-digital-garden/"}
+{"dg-publish":true,"dg-permalink":"set-up-your-digital-garden","permalink":"/set-up-your-digital-garden/"}
 ---
 # Set up your digital garden
 
