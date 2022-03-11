@@ -23,8 +23,9 @@ watch -d -n 5 az network vnet-gateway list --output table
 
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set up your own digital garden]]
 
-Text with some footnote [^1] 
 
+
+Text with some footnote [^1] 
 
 [^1]: Here is some notes
 			Here is some more notes underneath in another paragraph
