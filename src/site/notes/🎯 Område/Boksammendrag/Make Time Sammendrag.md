@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/omrade/boksammendrag/make-time-sammendrag/"}
+{"dg-publish":true,"dg-permalink":"sammendrag/make-time","permalink":"/sammendrag/make-time/"}
 ---
 
 # Make Time: Sammendrag
