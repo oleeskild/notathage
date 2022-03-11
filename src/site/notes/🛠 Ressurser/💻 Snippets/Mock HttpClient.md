@@ -1,7 +1,6 @@
 ---
 {"dg-publish":true,"permalink":"/ressurser/snippets/mock-http-client/"}
 ---
-
 # Mock HttpClient
 
 Created: Apr 28, 2021 11:04 PM
