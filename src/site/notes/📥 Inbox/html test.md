@@ -2,69 +2,17 @@
 {"dg-publish":true,"permalink":"/inbox/html-test/"}
 ---
 
-<style>
-.container {
-	font-family: sans-serif;
-	text-align: center;
-}
 
-  
+<div class="transclusion">
 
-.button-wrapper button {
 
-z-index: 1;
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
-height: 40px;
 
-width: 100px;
-
-margin: 10px;
-
-padding: 5px;
-
-}
-
-  
-
-.excalidraw .App-menu_top .buttonList {
-
-display: flex;
-
-}
-
-  
-
-.excalidraw-wrapper {
-
-height: 800px;
-
-margin: 50px;
-
-position: relative;
-
-}
-
-  
-
-:root[dir="ltr"]
-
-.excalidraw
-
-.layer-ui__wrapper
-
-.zen-mode-transition.App-menu_bottom--transition-left {
-
-transform: none;
-
-}
-</style>
-
-<div id="app"></div>
-<script src="https://unpkg.com/react@16.14.0/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
-<script type="text/javascript" src="https://unpkg.com/@excalidraw/excalidraw/dist/excalidraw.development.js"></script>
-<script>
-const InitialData = 
+# Text Elements
+%%
+# Drawing
+```json
 {
 	"type": "excalidraw",
 	"version": 2,
@@ -16784,49 +16732,9 @@ const InitialData =
 		"gridSize": null
 	},
 	"files": {}
-};
-const App = () => {
-const excalidrawRef = React.useRef(null);
-const excalidrawWrapperRef = React.useRef(null);
-const [dimensions, setDimensions] = React.useState({
-width: undefined,
-height: undefined
-});
-React.useEffect(() => {
-setDimensions({
-width: excalidrawWrapperRef.current.getBoundingClientRect().width,
-height: excalidrawWrapperRef.current.getBoundingClientRect().height
-});
-const onResize = () => {
-setDimensions({
-width: excalidrawWrapperRef.current.getBoundingClientRect().width,
-height: excalidrawWrapperRef.current.getBoundingClientRect().height
-});
-};
-window.addEventListener("resize", onResize);
-return () => window.removeEventListener("resize", onResize);
-}, [excalidrawWrapperRef]);
-return React.createElement(
-React.Fragment,
-null,
-React.createElement(
-"div",
-{
-className: "excalidraw-wrapper",
-ref: excalidrawWrapperRef
-},
-React.createElement(Excalidraw.default, {
-ref: excalidrawRef,
-width: dimensions.width,
-height: dimensions.height,
-initialData: InitialData,
-viewModeEnabled: true,
-zenModeEnabled: true,
-gridModeEnabled: false
-})
-)
-);
-};
-const excalidrawWrapper = document.getElementById("app");
-ReactDOM.render(React.createElement(App), excalidrawWrapper);
-</script>
+}
+```
+%%
+</div>
+
+
