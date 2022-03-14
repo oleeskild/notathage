@@ -5,7 +5,13 @@
 # Heading med greier
 
 
-![[Excalidraw/Refleksiv tillukning.excalidraw|Refleksiv tillukning.excalidraw]]
+<style>
+.container {font-family: sans-serif; text-align: center;}
+.button-wrapper button {z-index: 1;height: 40px; width: 100px; margin: 10px;padding: 5px;}
+.excalidraw .App-menu_top .buttonList { display: flex;}
+.excalidraw-wrapper { height: 800px; margin: 50px; position: relative;}
+:root[dir="ltr"] .excalidraw .layer-ui__wrapper .zen-mode-transition.App-menu_bottom--transition-left {transform: none;}
+</style><script src="https://unpkg.com/react@17/umd/react.production.min.js"></script><script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script><script type="text/javascript" src="https://unpkg.com/@excalidraw/excalidraw/dist/excalidraw.production.min.js"></script>NaN
 
 ```json
 {"hei": 123}
