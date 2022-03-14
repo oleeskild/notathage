@@ -63,7 +63,7 @@ transform: none;
 }
 </style>
 <script src="https://unpkg.com/react@16.14.0/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script>
 
  <script type="text/javascript" src="https://unpkg.com/@excalidraw/excalidraw/dist/excalidraw.development.js"></script>
 
