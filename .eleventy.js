@@ -82,6 +82,9 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addTransform('link', function(str) {
         return str && str.replace(/\[\[(.*?)\]\]/g, function(match, p1) {
+            if(p1.endsWith(".excalidraw.md")){
+                return str;
+            }
             const [fileName, linkTitle] = p1.split("|");
 
             let permalink = `/notes/${slugify(fileName)}`;
