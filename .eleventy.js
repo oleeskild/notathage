@@ -83,7 +83,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addTransform('link', function(str) {
         return str && str.replace(/\[\[(.*?)\]\]/g, function(match, p1) {
             if(p1.indexOf("],[") > -1){
-                return p1;
+                return match;
             }
             const [fileName, linkTitle] = p1.split("|");
 
