@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/inbox/html-test/"}
 ---
 
-# Heading med greier
+# Heading
 
 
 <style>
