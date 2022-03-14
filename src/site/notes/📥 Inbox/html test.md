@@ -2,8 +2,7 @@
 {"dg-publish":true,"permalink":"/inbox/html-test/"}
 ---
 
-
-                        <style>
+<style>
                             .container {
                                 font-family: sans-serif;
                                 text-align: center;
