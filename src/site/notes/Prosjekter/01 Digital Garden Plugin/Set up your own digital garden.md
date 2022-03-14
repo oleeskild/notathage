@@ -1,8 +1,6 @@
 ---
 {"dg-publish":true,"dg-permalink":"set-up-your-digital-garden","permalink":"/set-up-your-digital-garden/"}
 ---
-# Set up your digital garden
-
 # Obsidian Digital Garden
 Publish your notes in your own personal digital garden, using [Obsidian](https://obsidian.md/) as the editor and publishing platform.
 
