@@ -190,7 +190,6 @@ kubectl get pods
 kubectl get rs
 ```
 
-
 **Lag ny deployment**
 ```bash
 kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1
