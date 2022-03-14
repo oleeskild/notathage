@@ -4,11 +4,8 @@
 
 <style>
 .container {
-
-font-family: sans-serif;
-
-text-align: center;
-
+	font-family: sans-serif;
+	text-align: center;
 }
 
   
@@ -16788,102 +16785,48 @@ const InitialData =
 	},
 	"files": {}
 };
-
 const App = () => {
-
 const excalidrawRef = React.useRef(null);
-
 const excalidrawWrapperRef = React.useRef(null);
-
 const [dimensions, setDimensions] = React.useState({
-
 width: undefined,
-
 height: undefined
-
 });
-
-  
-
 React.useEffect(() => {
-
 setDimensions({
-
 width: excalidrawWrapperRef.current.getBoundingClientRect().width,
-
 height: excalidrawWrapperRef.current.getBoundingClientRect().height
-
 });
-
 const onResize = () => {
-
 setDimensions({
-
 width: excalidrawWrapperRef.current.getBoundingClientRect().width,
-
 height: excalidrawWrapperRef.current.getBoundingClientRect().height
-
 });
-
 };
-
-  
-
 window.addEventListener("resize", onResize);
-
-  
-
 return () => window.removeEventListener("resize", onResize);
-
 }, [excalidrawWrapperRef]);
-
-  
-
 return React.createElement(
-
 React.Fragment,
-
 null,
-
 React.createElement(
-
 "div",
-
 {
-
 className: "excalidraw-wrapper",
-
 ref: excalidrawWrapperRef
-
 },
-
 React.createElement(Excalidraw.default, {
-
 ref: excalidrawRef,
-
 width: dimensions.width,
-
 height: dimensions.height,
-
 initialData: InitialData,
-
 viewModeEnabled: true,
-
 zenModeEnabled: true,
-
 gridModeEnabled: false
-
 })
-
 )
-
 );
-
 };
-
-  
-
 const excalidrawWrapper = document.getElementById("app");
 ReactDOM.render(React.createElement(App), excalidrawWrapper);
-
 </script>
