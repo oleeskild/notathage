@@ -31,7 +31,7 @@
                             }
 
                             </style><div id="Refleksiv tillukning.excalidraw.md"></div><script src="https://unpkg.com/react@16.14.0/umd/react.development.js"></script><script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"></script><script type="text/javascript" src="https://unpkg.com/@excalidraw/excalidraw/dist/excalidraw.development.js"></script><script>
-                            const InitialData = 
+const InitialData = 
 {
 	"type": "excalidraw",
 	"version": 2,
@@ -16754,50 +16754,49 @@
 }
 ;
 
-                            const App = () => {
-                                const excalidrawRef = React.useRef(null);
-                                const excalidrawWrapperRef = React.useRef(null);
-                                const [dimensions, setDimensions] = React.useState({
-                                width: undefined,
-                                height: undefined
-                                });
-                                React.useEffect(() => {
-                                setDimensions({
-                                width: excalidrawWrapperRef.current.getBoundingClientRect().width,
-                                height: excalidrawWrapperRef.current.getBoundingClientRect().height
-                                });
-                                const onResize = () => {
-                                setDimensions({
-                                width: excalidrawWrapperRef.current.getBoundingClientRect().width,
-                                height: excalidrawWrapperRef.current.getBoundingClientRect().height
-                                });
-                                };
-                                window.addEventListener("resize", onResize);
-                                return () => window.removeEventListener("resize", onResize);
-                                }, [excalidrawWrapperRef]);
-                                return React.createElement(
-                                React.Fragment,
-                                null,
-                                React.createElement(
-                                "div",
-                                {
-                                className: "excalidraw-wrapper",
-                                ref: excalidrawWrapperRef
-                                },
-                                React.createElement(Excalidraw.default, {
-                                ref: excalidrawRef,
-                                width: dimensions.width,
-                                height: dimensions.height,
-                                initialData: InitialData,
-                                viewModeEnabled: true,
-                                zenModeEnabled: true,
-                                gridModeEnabled: false
-                                })
-                                )
-                                );
-                                };
-                                const excalidrawWrapper = document.getElementById("Refleksiv tillukning.excalidraw.md");
-                                ReactDOM.render(React.createElement(App), excalidrawWrapper);
-                                </script>
-                        
+const App = () => {
+const excalidrawRef = React.useRef(null);
+const excalidrawWrapperRef = React.useRef(null);
+const [dimensions, setDimensions] = React.useState({
+width: undefined,
+height: undefined
+});
+React.useEffect(() => {
+setDimensions({
+width: excalidrawWrapperRef.current.getBoundingClientRect().width,
+height: excalidrawWrapperRef.current.getBoundingClientRect().height
+});
+const onResize = () => {
+setDimensions({
+width: excalidrawWrapperRef.current.getBoundingClientRect().width,
+height: excalidrawWrapperRef.current.getBoundingClientRect().height
+});
+};
+window.addEventListener("resize", onResize);
+return () => window.removeEventListener("resize", onResize);
+}, [excalidrawWrapperRef]);
+return React.createElement(
+React.Fragment,
+null,
+React.createElement(
+"div",
+{
+className: "excalidraw-wrapper",
+ref: excalidrawWrapperRef
+},
+React.createElement(Excalidraw.default, {
+ref: excalidrawRef,
+width: dimensions.width,
+height: dimensions.height,
+initialData: InitialData,
+viewModeEnabled: true,
+zenModeEnabled: true,
+gridModeEnabled: false
+})
+)
+);
+};
+const excalidrawWrapper = document.getElementById("Refleksiv tillukning.excalidraw.md");
+ReactDOM.render(React.createElement(App), excalidrawWrapper);
+</script>
 
