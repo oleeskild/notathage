@@ -4,4 +4,5 @@
 $x^2$
 $$x^2$$
 
-[[📥 Inbox/html, test|html, test]]
+$2x + x^2 + 6x + 9 = 12x + 8 - 4x + x^2 + 1$
+
