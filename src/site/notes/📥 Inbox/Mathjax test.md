@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"date":"2022.03.12","time":"19:58","aliases":[],"tags":[],"permalink":"/inbox/mathjax-test/"}
+{"permalink":"/inbox/mathjax-test/"}
 ---
 
 
