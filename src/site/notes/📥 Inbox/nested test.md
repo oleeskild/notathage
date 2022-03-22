@@ -4,9 +4,14 @@
 Testing a note
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Prosjekter/01 Digital Garden Plugin/Set up your own digital garden#Configuration]]
 
-<div class="transclusion">
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+<div class="markdown-embed-title">
 
 ### Custom H3 Title
+
+
+</div>
 
 # Watch in linux
 
@@ -19,7 +24,7 @@ watch -d -n 5 az network vnet-gateway list --output table
 ```
 
 
-</div>
+</div></div>
 
 
 ==highlighted text==
