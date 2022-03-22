@@ -8,7 +8,15 @@ $$x^2$$
 
 ```ad-example
 title:
-`lol`
+No title on this one
+```
+
+```ad-note
+title: A custom title
+Custom title on this one
+```
+```ad-error
+Default title on this one
 ```
 
 
