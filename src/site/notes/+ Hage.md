@@ -1,5 +1,5 @@
 ---
-{"dg-home":true,"dg-publish":true,"permalink":"/hage/","tags":"gardenEntry"}
+{"dg-publish":true,"permalink":"/hage/","tags":"gardenEntry"}
 ---
 # Min Digitale Hage
 Dette er en [digital hage.](https://maggieappleton.com/garden-history) Hagen inneholder notater skrevet i [Obsidian](https://obsidian.md/). Disse er lagt ut offentlig slik at de eventuelt kan være til nytte for andre enn meg. De er krydret med skrivefeil, merkelige formuleringer og rotete struktur.
