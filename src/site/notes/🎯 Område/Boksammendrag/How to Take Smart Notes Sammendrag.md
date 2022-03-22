@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-permalink":"/sammendrag/how-to-take-smart-notes/","permalink":"/sammendrag/how-to-take-smart-notes/"}
 ---
 
-[[📥 Inbox/Readwise/Books/How to Take Smart Notes|How to Take Smart Notes]]
+[[🛠 Ressurser/👓 Readwise/Books/How to Take Smart Notes|How to Take Smart Notes]]
 # How to Take Smart Notes Sammendrag
 
 # TL;DR
