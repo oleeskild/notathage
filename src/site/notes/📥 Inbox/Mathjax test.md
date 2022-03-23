@@ -22,10 +22,10 @@ Default title on this one
 
 # Header 1
 
-[[html test#Heading]]
+[[📥 Inbox/html test#Heading|html test#Heading]]
 [[📥 Inbox/html test|html test]]
 [[📥 Inbox/html test|Pretty link]]
-[[html test#Heading|Pretty link with header]]
+[[📥 Inbox/html test#Heading|Pretty link with header]]
 
 
 <style>
