@@ -69,7 +69,7 @@ let a = 5;
 ```
 ### Links to other document
 Link to other notes with double brackets like you normally would in obsidian.
-[[📥 Inbox/Another note|Another note]]
+[[Prosjekter/01 Digital Garden Plugin/Another note|Another note]]
 
 ### Admonitions
 
