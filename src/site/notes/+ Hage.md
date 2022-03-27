@@ -51,6 +51,7 @@ Liste over nyttige utviklerverktøy.
 - [[🛠 Ressurser/DevTools/ActionsFlow|ActionsFlow]]
 - [[🛠 Ressurser/DevTools/Clearbit|Clearbit]]
 - [[🛠 Ressurser/DevTools/DevToys|DevToys]]
+- [[🛠 Ressurser/💻 Snippets/Backstage|Backstage]]
 
 ## Snippets
 Liste over kodesnutter og cheatsheets
