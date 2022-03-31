@@ -68,9 +68,9 @@
 
 # Optimize
 
--   Talk fra duden som laget leaflet. Enkelt å greit varr obs på at array.indexOf, Slice osv e lineære. Kan ofte lønne seg å gjøre ting på ein litt annen måte. Vis O(nˆ3) så kan ein mest sannsynligt minimum redusera med ein faktor. Samma for O(nˆ2) osv.
+-   Talk fra duden som laget leaflet. Enkelt og greit, vær obs på at array.indexOf, Slice osv e lineære. Kan ofte lønne seg å gjøre ting på en litt annen måte. Vis O(nˆ3) så kan man mest sannsynlig minimum redusera med en faktor. Samma for O(nˆ2) osv.
 
 # Actual budget
 -   Nytt produkt fra duden som laget Prettier.
--  Talken handlet om hvoradn man kan synce til offline systemer uten å få issues. Mest interessante var HLC som er en klokke man kan bruke til å implementere timestamps.
+-  Talken handlet om hvordan man kan synce til offline systemer uten å få issues. Mest interessante var HLC som er en klokke man kan bruke til å implementere timestamps.
 
