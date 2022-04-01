@@ -11,7 +11,7 @@ Denne oversikt-siden er i seg selv et notat, og inneholder linker til notater so
 Om du er interessert i å sette opp din egen digitale hage har jeg laget en guide her: 
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set up your own digital garden]]
 
-## Tema Notater
+## Tema-notater
 **Dette er notater som samler linker til andre notat som omhandler samme tema**
 * [[🛠 Ressurser/Slipbox/Microservices|Microservices]]
 
