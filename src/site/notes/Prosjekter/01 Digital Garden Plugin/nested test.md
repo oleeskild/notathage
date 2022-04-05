@@ -29,7 +29,7 @@ watch -d -n 5 az network vnet-gateway list --output table
 </div></div>
 
 ```
-[[🛠 Ressurser/Slipbox/AR og HoloLens|AR og HoloLens]]
+[[AR og HoloLens]]
 ```
 ==highlighted text==
 
