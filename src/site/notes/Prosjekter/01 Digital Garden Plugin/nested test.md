@@ -33,7 +33,8 @@ watch -d -n 5 az network vnet-gateway list --output table
 ```
 ==highlighted text==
 
-[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|lo]]
+[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set it up]]
+[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set up your own digital garden]]
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
