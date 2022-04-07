@@ -51,6 +51,15 @@ Test
 </div></div>
 
 
+> [!warning]
+> Contents ting skjer
+> Så skjer ting her
+> osv osv
+> noen a
+> 
+
+
+
 
 
 Text with some footnote [^1]
