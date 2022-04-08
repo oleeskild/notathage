@@ -46,8 +46,6 @@ Ting skjer her
 		- Nested  nested bullet 3
 		
 
-> this is a quote
-> this is a new line for the quote
 
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set it up]]
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set up your own digital garden]]
