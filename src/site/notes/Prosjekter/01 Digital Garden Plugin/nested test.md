@@ -29,13 +29,23 @@ watch -d -n 5 az network vnet-gateway list --output table
 </div></div>
 
 ```
-[[AR og HoloLens]]
+[[🛠 Ressurser/Slipbox/AR og HoloLens|AR og HoloLens]]
 ```
 ==highlighted text==
 
 - [ ] Item
 - [ ] item 2
 	- [ ] Nested item 1
+	
+
+- Bullet
+- Bullet2
+	- Nested  bullet 2
+		- Nested  nested bullet 3
+		
+
+> this is a quote
+> this is a new line for the quote
 
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set it up]]
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set up your own digital garden]]
