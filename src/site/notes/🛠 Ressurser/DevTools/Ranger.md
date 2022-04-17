@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/ranger/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/ranger/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Ranger
 
