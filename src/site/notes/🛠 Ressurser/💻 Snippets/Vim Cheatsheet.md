@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/vim-cheatsheet/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/vim-cheatsheet/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Vim Cheatsheet
 [[🛠 Ressurser/Slipbox/VIM|VIM]]
 Created: Apr 7, 2019 2:32 PM
