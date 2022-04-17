@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/function-orchestration/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/function-orchestration/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 [[🛠 Ressurser/Slipbox/Update Conference 2021|Update Conference 2021]]
 ### Function orchestration
