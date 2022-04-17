@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/chakra-ui/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/chakra-ui/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Chakra UI
 
