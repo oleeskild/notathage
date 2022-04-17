@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/parallax-js/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/parallax-js/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Parallax.js
 
