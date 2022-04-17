@@ -1,12 +1,13 @@
 ---
-{"dg-publish":true,"dg-permalink":"/sammendrag/how-to-take-smart-notes/","permalink":"/sammendrag/how-to-take-smart-notes/"}
+{"dg-publish":true,"dg-permalink":"/sammendrag/how-to-take-smart-notes/","permalink":"/sammendrag/how-to-take-smart-notes/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 [[🛠 Ressurser/👓 Readwise/Books/How to Take Smart Notes|How to Take Smart Notes]]
 # How to Take Smart Notes Sammendrag
 
 # TL;DR
-Boka er en introduksjon til [[🛠 Ressurser/Slipbox/Zettelkasten|Zettelkasten]]-metodikken, oppfunnet og brukt av [[Niklas Luhman]]. Den er i utgangspunktet skrevet for studenter og personer involvert i akademia, men er skrevet på et vennlig, ikke-faglig språk og vil være interessant for personer utenfor disse kretsene også. 
+Boka er en introduksjon til [[🛠 Ressurser/Slipbox/Zettelkasten|Zettelkasten]]-metodikken, oppfunnet og brukt av [[Niklas Luhman|Niklas Luhman]]. Den er i utgangspunktet skrevet for studenter og personer involvert i akademia, men er skrevet på et vennlig, ikke-faglig språk og vil være interessant for personer utenfor disse kretsene også. 
 
 Boka er å anbefale til de som ønsker å huske og ta i bruk mer av den vanvittige mengden informasjonen man konsumerer hver dag. 
 
