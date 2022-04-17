@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/ar-og-holo-lens/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/ar-og-holo-lens/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 [[🛠 Ressurser/Slipbox/Update Conference 2021|Update Conference 2021]]
 ### AR og HoloLens
