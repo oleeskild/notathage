@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/open-peeps/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/open-peeps/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # OpenPeeps
 Håndtegnede gratis illustrasjoner av mennesker
