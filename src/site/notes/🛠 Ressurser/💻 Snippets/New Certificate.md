@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/new-certificate/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/new-certificate/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # New Certificate
 
 ```powershell
