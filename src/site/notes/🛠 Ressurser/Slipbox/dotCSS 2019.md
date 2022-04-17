@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/dot-css-2019/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/dot-css-2019/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # dotCSS 2019
 Houdini
 
