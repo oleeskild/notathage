@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/apex-charts/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/apex-charts/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # ApexCharts
 
