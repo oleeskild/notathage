@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/console-table/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/console-table/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 Skriver ut objekter og arrays som en tabell
 
 ```js
