@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/kubernetes-cheatsheet/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/kubernetes-cheatsheet/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Kubernetes Cheatsheet
 ## Kubernetes Cluster
@@ -67,9 +68,9 @@ Det finnes ulike måter å eksponere en Servie på. Disse velger man ved å spes
 * ClusterIP (Default)
 	* Servicen blir eksponer på en intern IP i clusteret. Denne tjenesten kan kun nås inne i klusteret
 * NodePort
-	* Eksponerer en Service på samme port på alle de valgte Nodene i klusteret ved å bruke [[NAT]]. Servicen kan da nås fra utsiden av clustered ved å bruke `<NodeIP>:<NodePort>`.  Man når altså Servicen ved å gå via en Node og en spesiell port, som da proxyer videre inn til servicen. Supersett av ClusterIP, så den har fortsatt egen intern IP, men kan altså også nås via Nodes om man har satt opp disse til å ha ekstern IP adresse f.eks. Da kan man sette opp sin egen loadbalancer konfigurasjon ved å proxye gjennom en node.
+	* Eksponerer en Service på samme port på alle de valgte Nodene i klusteret ved å bruke [[NAT|NAT]]. Servicen kan da nås fra utsiden av clustered ved å bruke `<NodeIP>:<NodePort>`.  Man når altså Servicen ved å gå via en Node og en spesiell port, som da proxyer videre inn til servicen. Supersett av ClusterIP, så den har fortsatt egen intern IP, men kan altså også nås via Nodes om man har satt opp disse til å ha ekstern IP adresse f.eks. Da kan man sette opp sin egen loadbalancer konfigurasjon ved å proxye gjennom en node.
 * LoadBalancer
-	* Lager en extern [[Load Balancer]] i clouden man er i (om det er støttet), og gir en fixed extern IP to tjenesten. Supertset av NodePort. Det er altså en ferdig implementert LoadBalancer som bruker NodePort implementasjonen for å eksponere seg ut fra det interne klusternettverket.
+	* Lager en extern [[Load Balancer|Load Balancer]] i clouden man er i (om det er støttet), og gir en fixed extern IP to tjenesten. Supertset av NodePort. Det er altså en ferdig implementert LoadBalancer som bruker NodePort implementasjonen for å eksponere seg ut fra det interne klusternettverket.
 * Externalname
 	* Lager et CNAME record for å kunne nå noe utenfor clusteret. F.eks. kan man mappe en tjeneste (som får en lokal adresse i clusteret), til et eksternt navn. Dette skjer på DNS nivå, og ikke proxy nivå. F.eks. vil en Service definition for å nå en database på utsiden se slik ut:
 
