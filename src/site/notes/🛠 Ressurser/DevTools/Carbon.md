@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/carbon/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/carbon/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Carbon
 
