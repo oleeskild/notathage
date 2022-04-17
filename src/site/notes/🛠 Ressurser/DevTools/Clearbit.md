@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/clearbit/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/clearbit/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Clearbit
 
