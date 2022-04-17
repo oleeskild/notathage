@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/tmux-cheatsheet/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/tmux-cheatsheet/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # TMUX cheatsheet
 
 Bind key= CTRL-B
