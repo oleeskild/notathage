@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/rider-cheatsheet/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/rider-cheatsheet/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Rider
 ## Resharper keybindings
 F4: Edit highlighted csproj
