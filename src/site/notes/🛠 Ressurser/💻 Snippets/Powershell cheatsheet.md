@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/powershell-cheatsheet/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/powershell-cheatsheet/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Powershell Cheatsheet
 
 ### Sett UI språk til engelsk
