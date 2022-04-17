@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/pandas-cheatsheet/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/pandas-cheatsheet/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Pandas Cheatsheet
 ## importér
 ```python
