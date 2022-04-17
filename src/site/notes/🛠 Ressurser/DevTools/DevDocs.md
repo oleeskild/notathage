@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/dev-docs/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/dev-docs/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # DevDocs
 Dokumentasjon for de fleste språk og rammeverk. Har også et åpent API som kan brukes i forbindelse med [[🛠 Ressurser/Slipbox/Automasjon MOC|Automasjon MOC]]
