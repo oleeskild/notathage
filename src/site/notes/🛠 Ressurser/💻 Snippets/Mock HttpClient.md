@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/mock-http-client/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/mock-http-client/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Mock HttpClient
 
 Created: Apr 28, 2021 11:04 PM
