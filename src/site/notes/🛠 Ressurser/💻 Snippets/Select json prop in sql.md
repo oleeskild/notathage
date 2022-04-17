@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/select-json-prop-in-sql/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/select-json-prop-in-sql/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Select json prop in sql
 
 Tags: SQL
