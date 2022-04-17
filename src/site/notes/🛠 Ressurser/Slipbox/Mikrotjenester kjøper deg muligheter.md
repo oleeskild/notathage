@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/mikrotjenester-kjoper-deg-muligheter/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/mikrotjenester-kjoper-deg-muligheter/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 [[🛠 Ressurser/Slipbox/Microservices|Microservices]]
 
 > Microservices buy you options
