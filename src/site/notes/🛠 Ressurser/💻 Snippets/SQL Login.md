@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/sql-login/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/sql-login/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # SQL Login
 
 Created: Mar 17, 2021 11:21 AM
