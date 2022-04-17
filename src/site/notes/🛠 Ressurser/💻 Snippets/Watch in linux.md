@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/watch-in-linux/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/watch-in-linux/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Watch in linux
 
 Created: Sep 27, 2020 2:51 PM
