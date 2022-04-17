@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/intro-til-net-6/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/intro-til-net-6/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 [[🛠 Ressurser/Slipbox/Update Conference 2021|Update Conference 2021]]
 ### Intro til NET 6
