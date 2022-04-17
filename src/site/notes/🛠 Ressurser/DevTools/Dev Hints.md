@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/dev-hints/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/dev-hints/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Dev Hints
 
