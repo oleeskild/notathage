@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/actions-flow/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/actions-flow/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # ActionsFlow
 
 Beskrivelse: Alternativ til IFTT. 
