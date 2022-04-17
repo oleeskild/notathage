@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/docker-cheatsheet/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/docker-cheatsheet/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Docker Cheatsheet
 
