@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/bicep-for-azure-infrastruktur/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/bicep-for-azure-infrastruktur/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 [[🛠 Ressurser/Slipbox/Update Conference 2021|Update Conference 2021]]
 ### Bicep for Azure Infrastruktur
 Er et domenespesifikt språk for å programmere infrastruktur i Azure
