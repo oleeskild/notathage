@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/git-cheatsheet/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/git-cheatsheet/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Git Cheatsheet
 **Rebase**
 ```powershell
