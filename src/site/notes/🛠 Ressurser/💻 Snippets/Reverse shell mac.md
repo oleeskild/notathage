@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/reverse-shell-mac/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/reverse-shell-mac/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Reverse shell mac
 
 Created: Feb 2, 2020 9:22 PM
