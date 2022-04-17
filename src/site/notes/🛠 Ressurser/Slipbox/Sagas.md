@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/sagas/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/sagas/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 [[🛠 Ressurser/Slipbox/Microservices|Microservices]]
 
 # Sagas
