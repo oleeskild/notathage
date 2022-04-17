@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/nuget-cheatsheet/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/nuget-cheatsheet/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Nuget Cheatsheet
 **List alle cachene**
 ```powershell
