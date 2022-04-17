@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/snippets/git-ekskluder-lokalt/"}
+{"dg-publish":true,"permalink":"/ressurser/snippets/git-ekskluder-lokalt/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Git ekskluder lokalt
 
 Åpne .git/info/exclude filen
