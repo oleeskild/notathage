@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/dot-js-2019/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/dot-js-2019/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # dotJS 2019
 [dotJS 2019](https://www.dotjs.io/)
 
