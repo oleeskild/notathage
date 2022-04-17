@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/reactive-mobile-apps-or-rx-net/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/reactive-mobile-apps-or-rx-net/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 [[🛠 Ressurser/Slipbox/Update Conference 2021|Update Conference 2021]]
 ### Reactive Mobile Apps (or Rx.Net)
