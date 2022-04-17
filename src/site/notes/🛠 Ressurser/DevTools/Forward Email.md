@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/forward-email/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/forward-email/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Forward Email
 
