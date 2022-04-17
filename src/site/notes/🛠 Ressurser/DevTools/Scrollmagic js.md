@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/scrollmagic-js/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/scrollmagic-js/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Scrollmagic.js
 
