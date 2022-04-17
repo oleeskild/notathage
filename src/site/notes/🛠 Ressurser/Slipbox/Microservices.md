@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/microservices/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/microservices/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Microservices
 > A **microservice** architecture – a variant of the [service-oriented architecture](https://en.wikipedia.org/wiki/Service-oriented_architecture "Service-oriented architecture") (SOA) structural style – arranges an application as a collection of [loosely-coupled](https://en.wikipedia.org/wiki/Loose_coupling "Loose coupling") services. In a microservices architecture, services are fine-grained and the protocols are [lightweight](https://en.wikipedia.org/wiki/Lightweight_protocol "Lightweight protocol"). The goal is that teams can bring their services life independent of others. Loose coupling reduces all types of dependencies and the complexities around it, as service developers do not need to care about the users of the service, they do not force their changes onto users of the service.
 Kilde: [Wikipedia](https://en.wikipedia.org/wiki/Microservices)
