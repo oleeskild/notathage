@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/cosmos-db/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/cosmos-db/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 [[🛠 Ressurser/Slipbox/Update Conference 2021|Update Conference 2021]]
 ### Cosmos DB
