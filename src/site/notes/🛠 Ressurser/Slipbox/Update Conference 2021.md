@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/slipbox/update-conference-2021/"}
+{"dg-publish":true,"permalink":"/ressurser/slipbox/update-conference-2021/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 # Update Conference 2021
 ## Dag 1
 
