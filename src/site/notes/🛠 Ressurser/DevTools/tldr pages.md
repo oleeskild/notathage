@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/tldr-pages/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/tldr-pages/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # tldr pages
 
