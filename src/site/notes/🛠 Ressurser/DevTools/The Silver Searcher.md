@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/the-silver-searcher/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/the-silver-searcher/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # The Silver Searcher
 
