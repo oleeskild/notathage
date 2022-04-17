@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/ressurser/dev-tools/oh-shit-git/"}
+{"dg-publish":true,"permalink":"/ressurser/dev-tools/oh-shit-git/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
+
 
 # Oh shit git
 
