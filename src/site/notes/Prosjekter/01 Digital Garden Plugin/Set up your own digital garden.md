@@ -68,6 +68,8 @@ The plugin currently supports rendering these types of note contents:
 ```javascript
 let a = 5;
 ```
+
+`Some inline code`
 ### Links to other document
 Link to other notes with double brackets like you normally would in obsidian.
 [[Prosjekter/01 Digital Garden Plugin/Another note|Another note]]
