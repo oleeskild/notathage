@@ -81,9 +81,6 @@ Text with some footnote [^1]
 
 [^1]: Here is some notes
 
----
-{"dg-publish":true,"permalink":"/excalidraw/circleandsquare-excalidraw/","dgHomeLink":true,"dgPassFrontmatter":false}
----
 <style>
 .container {font-family: sans-serif; text-align: center;}
 .button-wrapper button {z-index: 1;height: 40px; width: 100px; margin: 10px;padding: 5px;}
