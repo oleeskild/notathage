@@ -41,9 +41,6 @@ Eks:
 $$A=\{(1,2)\}$$
 $$RefleksivTillukningAvA = \{(1,2),(1,1),(2,2),(3,3)\}$$
 
----
-{"dg-publish":true,"permalink":"/excalidraw/refleksiv-tillukning-excalidraw/","dgHomeLink":true,"dgPassFrontmatter":false}
----
 <style>
 .container {font-family: sans-serif; text-align: center;}
 .button-wrapper button {z-index: 1;height: 40px; width: 100px; margin: 10px;padding: 5px;}
