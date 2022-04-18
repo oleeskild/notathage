@@ -70,6 +70,7 @@ let a = 5;
 ```
 
 `Some inline code`
+
 ### Links to other document
 Link to other notes with double brackets like you normally would in obsidian.
 [[Prosjekter/01 Digital Garden Plugin/Another note|Another note]]
@@ -139,9 +140,6 @@ There is a footnote here [^1]
 - [x] Checked
 
 ### Excalidraw
----
-{"dg-publish":true,"permalink":"/excalidraw/circleandsquare-excalidraw/","dgHomeLink":true,"dgPassFrontmatter":false}
----
 <style>
 .container {font-family: sans-serif; text-align: center;}
 .button-wrapper button {z-index: 1;height: 40px; width: 100px; margin: 10px;padding: 5px;}
