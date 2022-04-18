@@ -29,9 +29,6 @@ Default title on this one
 [[Prosjekter/01 Digital Garden Plugin/html test#Heading|Pretty link with header]]
 
 
----
-{"dg-publish":true,"permalink":"/excalidraw/circleandsquare-excalidraw/","dgHomeLink":true,"dgPassFrontmatter":false}
----
 <style>
 .container {font-family: sans-serif; text-align: center;}
 .button-wrapper button {z-index: 1;height: 40px; width: 100px; margin: 10px;padding: 5px;}
