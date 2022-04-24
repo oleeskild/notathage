@@ -29,8 +29,8 @@ Distribuerte systemer er vanskelige
 ## Relaterte notater 
 [[🛠 Ressurser/Slipbox/Sagas|Sagas]]
 [[🛠 Ressurser/Slipbox/Logging i mikrotjenester bør aggregeres|Logging i mikrotjenester bør aggregeres]]
+[[🛠 Ressurser/Slipbox/Mikrotjenester bør versjoneres semantisk|Mikrotjenester bør versjoneres semantisk]]
 [[🛠 Ressurser/Slipbox/Endepunkter bør versjoneres i header|Endepunkter bør versjoneres i header]]
-[[Mikrotjenester bør versjoneres semantisk|Mikrotjenester bør versjoneres semantisk]]
 
 
 ## Notater fra talks
