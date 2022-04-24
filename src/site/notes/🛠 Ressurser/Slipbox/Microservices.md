@@ -26,7 +26,6 @@ Distribuerte systemer er vanskelige
 [[🛠 Ressurser/Slipbox/Monitorering av mikrotjenester er komplekst|Monitorering av mikrotjenester er komplekst]]
 [[🛠 Ressurser/Slipbox/Ved sikkerhetshull må alle mikrotjenester patches|Ved sikkerhetshull må alle mikrotjenester patches]]
 
-
 ## Annet 
 [[🛠 Ressurser/Slipbox/Sagas|Sagas]]
 [[🛠 Ressurser/Slipbox/Logging i mikrotjenester bør aggregeres|Logging i mikrotjenester bør aggregeres]]
