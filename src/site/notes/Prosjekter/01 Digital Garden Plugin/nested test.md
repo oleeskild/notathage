@@ -50,7 +50,23 @@ Ting skjer her
 
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set it up]]
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set up your own digital garden]]
-![[testingheader]]
+
+
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
+<div class="markdown-embed-title">
+
+
+
+</div>
+
+En link inne i en tranclusion 
+
+
+[[nested test]]
+
+</div></div>
+
 
 > [!warning]
 > Contents ting skjer
