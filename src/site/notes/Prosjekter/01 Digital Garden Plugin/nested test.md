@@ -3,7 +3,7 @@
 ---
 
 Testing a note
-[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden#Configuration|Prosjekter/01 Digital Garden Plugin/Set up your own digital garden#Configuration]]
+[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden#Configuration]]
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
@@ -32,6 +32,9 @@ watch -d -n 5 az network vnet-gateway list --output table
 ```
 [[AR og HoloLens]]
 ```
+
+`[[testingheader]]`
+
 ==highlighted text==
 
 - [ ] Item
@@ -48,8 +51,8 @@ Ting skjer her
 		
 
 
-[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set it up]]
-[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set up your own digital garden]]
+[[Set up your own digital garden|Set it up]]
+[[Set up your own digital garden]]
 
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
