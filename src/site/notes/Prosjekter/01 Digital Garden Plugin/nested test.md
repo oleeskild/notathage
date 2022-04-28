@@ -31,7 +31,7 @@ watch -d -n 5 az network vnet-gateway list --output table
 
 
 ```
-[[🛠 Ressurser/Slipbox/AR og HoloLens|AR og HoloLens]]
+[[AR og HoloLens]]
 ```
 
 `[[testingheader]]`
