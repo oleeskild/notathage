@@ -67,7 +67,7 @@ Ting skjer her
 En link inne i en tranclusion 
 
 
-[[Prosjekter/01 Digital Garden Plugin/nested test|nested test]]
+[[nested test]]
 
 </div></div>
 
