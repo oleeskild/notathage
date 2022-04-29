@@ -91,6 +91,6 @@ En link inne i en tranclusion
 
 
 
-Text with some footnote [^1]
+Text with a footnote [^1]
 
 [^1]: Here is some notes
