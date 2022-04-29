@@ -3,7 +3,7 @@
 ---
 
 Testing a note
-[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden#Configuration]|Prosjekter/01 Digital Garden Plugin/Set up your own digital garden#Configuration]]]
+[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden#Configuration|Prosjekter/01 Digital Garden Plugin/Set up your own digital garden#Configuration]]
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
@@ -52,8 +52,8 @@ Ting skjer her
 		
 
 
-[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set it up]]]
-[[Set up your own digital garden]|Set up your own digital garden]]]
+[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set it up]]
+[[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set up your own digital garden]]
 
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
@@ -67,7 +67,7 @@ Ting skjer her
 En link inne i en tranclusion 
 
 
-[[nested test]|nested test]]]
+[[Prosjekter/01 Digital Garden Plugin/nested test|nested test]]
 
 </div></div>
 
