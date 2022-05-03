@@ -33,6 +33,7 @@ watch -d -n 5 az network vnet-gateway list --output table
 
 
 
+
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 <div class="markdown-embed-title">
