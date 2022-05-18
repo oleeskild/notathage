@@ -9,7 +9,7 @@ Noen av linkene leder til tomme sider. Dette kan være fordi notatet enda ikke f
 
 Denne oversikt-siden er i seg selv et notat, og inneholder linker til notater som jeg tror kan være interessante for andre enn meg. 
 
-Om du er interessert i å sette opp din egen digitale hage ligger  en guide her: 
+Om du er interessert i å sette opp din egen digitale hage ligger det en guide her: 
 [[Prosjekter/01 Digital Garden Plugin/Set up your own digital garden|Set up your own digital garden]]
 
 ## Programutvikling
