@@ -31,6 +31,7 @@ Distribuerte systemer er vanskelige
 [[🛠 Ressurser/Slipbox/Logging i mikrotjenester bør aggregeres|Logging i mikrotjenester bør aggregeres]]
 [[🛠 Ressurser/Slipbox/Mikrotjenester bør versjoneres semantisk|Mikrotjenester bør versjoneres semantisk]]
 [[🛠 Ressurser/Slipbox/Endepunkter bør versjoneres i header|Endepunkter bør versjoneres i header]]
+[[🛠 Ressurser/Slipbox/Utviklerteam bør være stream-aligned|Utviklerteam bør være stream-aligned]]
 
 
 ## Notater fra talks
