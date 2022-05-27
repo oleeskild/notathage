@@ -8,7 +8,7 @@ Sammendrag fra boka [[🛠 Ressurser/👓 Readwise/Books/Make Time|Make Time]]
 
 # TL;DR
 ## Daily highlight
-Hver dag skal ha en "daily highlight", eller daglig høydepunkt. Dette skal være den ene tingen man skal få gjennomført idag. Det kan være jobbrelatert, eller personlig. Det kan være viktig pga. eksterne faktorer (som deadline på jobb), eller det kan være viktig for deg personlig å gjøre det (lære seg en ny skala på piano). Denne tiden skal være "hellig" og bør lages som en [[Prosjekter/10 Forbedre puls-team prosess/Fokus-Blokk|Fokus-Blokk]]. 
+Hver dag skal ha en "daily highlight", eller daglig høydepunkt. Dette skal være den ene tingen man skal få gjennomført idag. Det kan være jobbrelatert, eller personlig. Det kan være viktig pga. eksterne faktorer (som deadline på jobb), eller det kan være viktig for deg personlig å gjøre det (lære seg en ny skala på piano). Denne tiden skal være "hellig" og bør lages som en [[🛠 Ressurser/Slipbox/Fokus-Blokk|Fokus-Blokk]]. 
 
 ## Hvordan velge highlight
 1. Haster. Hva er det som haster mest i dag å få gjort?
