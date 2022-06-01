@@ -14,7 +14,7 @@ Om du er interessert i å sette opp din egen digitale hage ligger det en guide h
 
 ## Programutvikling
 * [[🛠 Ressurser/Slipbox/Microservices|Microservices]]
-- [[📥 Inbox/Tid, dato og kode|Tid, dato og kode]]
+- [[🛠 Ressurser/Slipbox/Tid, dato og kode|Tid, dato og kode]]
 
 ## Bok-sammendrag
 - [[🎯 Område/Boksammendrag/How to Take Smart Notes Sammendrag|How to Take Smart Notes Sammendrag]]
