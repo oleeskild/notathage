@@ -35,6 +35,7 @@ Liste over nyttige utviklerverktøy.
 - [[🛠 Ressurser/DevTools/Scrollmagic js|Scrollmagic js]]
 - [[🛠 Ressurser/DevTools/Parallax js|Parallax js]]
 
+
 ### Dokumentasjon
 - [[🛠 Ressurser/DevTools/Dev Hints|Dev Hints]]
 - [[🛠 Ressurser/DevTools/DevDocs|DevDocs]]
@@ -50,6 +51,7 @@ Liste over nyttige utviklerverktøy.
 - [[🛠 Ressurser/DevTools/Forward Email|Forward Email]]
 
 ### Verktøy
+* [[🛠 Ressurser/DevTools/AppSmith|AppSmith]]
 - [[🛠 Ressurser/DevTools/K6|K6]]
 - [[🛠 Ressurser/DevTools/Ranger|Ranger]]
 - [[🛠 Ressurser/DevTools/The Silver Searcher|The Silver Searcher]]
