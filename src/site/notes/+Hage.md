@@ -14,6 +14,7 @@ Om du er interessert i å sette opp din egen digitale hage ligger det en guide h
 
 ## Programutvikling
 * [[🛠 Ressurser/Slipbox/Microservices|Microservices]]
+* [[🛠 Ressurser/Slipbox/C4 modellen|C4 modellen]]
 - [[🛠 Ressurser/Slipbox/Tid, dato og kode|Tid, dato og kode]]
 
 ## Bok-sammendrag
