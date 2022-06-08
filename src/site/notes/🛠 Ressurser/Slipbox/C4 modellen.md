@@ -36,7 +36,7 @@ Eksempelvis:
 ## Verktøy
 [[🛠 Ressurser/Personer/Simon Brown|Simon Brown]] anbefaler ikke tradisjonelle verktøy som Visio, Lucidchart osv. De er for general purpose, og kan ofte være overkill for å lage C4 diagrammer. De er også vanskeligere å refaktorere og holde oppdatert over tid.
 
-Han har derimot laget sitt eget verktøy kallt Structurizr. Dette kommer også med sitt eget [[Domain Specific Language|Domain Specific Language]] som lar en skrive dokumentasjon som kode og deretter generere en visualisering utifra dette. Selve diagramm-dataene og visualisering er lousely coupled og det tilbys en rekke eksporteringer. Man kan bruke Structurizr renderen som rendrer til et webview hvor man kan interaktivt zoome inn på de forskjellige nivåene. Men man kan også eksportere til andre populære formater som mermaid, png, eller svg.    
+Han har derimot laget sitt eget verktøy kalt Structurizr. Dette kommer også med sitt eget [[Domain Specific Language|Domain Specific Language]] som lar en skrive dokumentasjon som kode og deretter generere en visualisering utifra dette. Selve diagramm-dataene og visualisering er lousely coupled og det tilbys en rekke eksporteringer. Man kan bruke Structurizr renderen som rendrer til et webview hvor man kan interaktivt zoome inn på de forskjellige nivåene. Men man kan også eksportere til andre populære formater som mermaid, png, eller svg.    
 
 ## Ressurser
 [https://c4model.com](https://c4model.com/)
