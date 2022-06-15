@@ -3,12 +3,13 @@
 ---
 
 # Obsidian Digital Garden
-Publish your notes in your own personal digital garden, using [Obsidian](https://obsidian.md/) as the editor and publishing platform.
+Publish your notes in your own personal digital garden, using [Obsidian](https://obsidian.md/) as the editor and the [Digital Garden Plugin](https://github.com/oleeskild/obsidian-digital-garden) publishing platform.
 
 ## Configuration
 It's a bit of work to set this all up, but when you're done you'll have a digital garden in which you are in control of every part of it, and can customize it as you see fit. Which is what makes digital gardens so delightful.
 Lets get started:
 
+1. Download and install the community plugin Digital Garden in Obsidian.
 1. First off, you will need a GitHub account. If you don't have this, create one [here](https://github.com/signup).
 2. You'll also need a Netlify account. You can sign up using your GitHub account [here](https://app.netlify.com/)
 3. Open [this repo](https://github.com/oleeskild/digitalgarden), and click the green "Deploy to netlify" button. This will open netlify which in turn will create a copy of this repository in your GitHub accont. Give it a fitting name like 'my-digital-garden'. Follow the steps to publish your site to the internet.
