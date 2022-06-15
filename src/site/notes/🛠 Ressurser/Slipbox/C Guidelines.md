@@ -29,7 +29,7 @@ private static DailyTemperature[] data = new DailyTemperature[]
 En record class vil være readonly etter initialiseringen
 En record struct vil være read + write.
 
-`[CallerArgumentException("value")]` <= Denne annotasjonen har blitt nevnt flere ganger. Vet ikke hva det er egentlig. 
+`[CallerArgumentException("value")]` <= Denne annotasjonen har blitt nevnt flere ganger. Vet ikke hva det er. 
 
 Bruk "is" for å sjekke for null
 `if(something is null)`
