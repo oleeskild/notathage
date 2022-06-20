@@ -13,4 +13,5 @@ ZonedDateTime er en LocalDateTime med en tilhørende tidssone. Så her har man i
 
 
 [Kode24 Artikkel](https://www.kode24.no/guider/tid---hvor-vanskelig-kan-det-vaere/71490509)
+[NodaTime Design philosophy](https://nodatime.org/1.3.x/userguide/design)
 
