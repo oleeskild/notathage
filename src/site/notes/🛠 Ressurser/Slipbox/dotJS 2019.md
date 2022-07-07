@@ -11,7 +11,7 @@
 
 # Testing library
 
--   Bibliotek for vue, react, svelte osv for å teste kode uten å vite noe om implementasjonen. Man tester som en bruker istedenfor som en tester. F.eks. istedenfor å hente ut en knapp med klassenavn eller kjøre en metode så henter vi ut en knapp med gitt tekst for så å kalle click på denne. Dermed introduserer man ikke en trede part inn i koden (utvikler og bruker er de allerede eksisterende brukerne av koden)
+-   Bibliotek for vue, react, svelte osv for å teste kode uten å vite noe om implementasjonen. Man tester som en bruker istedenfor som en tester. F.eks. istedenfor å hente ut en knapp med klassenavn eller kjøre en metode så henter vi ut en knapp med gitt tekst for så å kalle click på denne. Dermed introduserer man ikke en tredjepart inn i koden (utvikler og bruker er de allerede eksisterende brukerne av koden)
 
 # Webhint code
 
