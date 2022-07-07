@@ -112,6 +112,56 @@ This is text from another document with a transcluded image inside.
 </div></div>
 
 
+### PlantUML diagrams
+```plantuml
+@startuml
+title Software System - Containers
+
+left to right direction
+
+skinparam {
+  shadowing false
+  arrowFontSize 10
+  defaultTextAlignment center
+  wrapWidth 200
+  maxMessageSize 100
+}
+
+hide stereotype
+
+skinparam rectangle<<SoftwareSystem.Database>> {
+  BackgroundColor #438dd5
+  FontColor #ffffff
+  BorderColor #2e6295
+  roundCorner 20
+}
+skinparam person<<User>> {
+  BackgroundColor #08427b
+  FontColor #ffffff
+  BorderColor #052e56
+}
+skinparam rectangle<<SoftwareSystem.WebApplication>> {
+  BackgroundColor #438dd5
+  FontColor #ffffff
+  BorderColor #2e6295
+  roundCorner 20
+}
+
+person "==User\n<size:10>[Person]</size>" <<User>> as User
+
+package "Software System\n[Software System]" <<SoftwareSystem>> {
+  skinparam PackageBorderColor<<SoftwareSystem>> #444444
+  skinparam PackageFontColor<<SoftwareSystem>> #444444
+
+  rectangle "==Web Application\n<size:10>[Container]</size>" <<SoftwareSystem.WebApplication>> as SoftwareSystem.WebApplication
+  rectangle "==Database\n<size:10>[Container]</size>" <<SoftwareSystem.Database>> as SoftwareSystem.Database
+}
+
+User .[#707070,thickness=2].> SoftwareSystem.WebApplication : "<color:#707070>Uses"
+SoftwareSystem.WebApplication .[#707070,thickness=2].> SoftwareSystem.Database : "<color:#707070>Reads from and writes to"
+@enduml
+```
+
 ### Mermaid diagrams
 ```mermaid
 	graph LR;
