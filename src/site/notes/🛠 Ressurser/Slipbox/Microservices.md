@@ -37,4 +37,4 @@ Distribuerte systemer er vanskelige
 
 ## Notater fra talks
 [[🛠 Ressurser/Slipbox/Information Patterns in Microservices|Information Patterns in Microservices]]
-[[📥 Inbox/Microservices Workshop|Microservices Workshop]]
+[[🛠 Ressurser/Slipbox/Microservices Workshop|Microservices Workshop]]
