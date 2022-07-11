@@ -15,7 +15,8 @@ Hver dag skal ha en "daily highlight", eller daglig høydepunkt. Dette skal vær
 2. Tilfredshet. Hvilket highlight vil gi deg mest ro og sjelefred når det er gjort?
 3. Glede. Når du reflekterer over dagen, hva gir deg mest glede?
 
-# Noe lengre sammendrag
+
+# Sammendrag
 ## Et motargument mot produktivitets-kulturen
 Det er fristende å finne produktivitets hacks som skal gjøre deg enda mer effektiv og la deg gjøre enda mer. Det implisitte målet er å få gjort 8 timers arbeid ila. 5 timer, men i praksis jobber man bare hardere i de 8 timene. Ofte med andre menneskers prioriteringer.
 
