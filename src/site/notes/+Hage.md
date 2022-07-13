@@ -33,6 +33,7 @@ Liste over nyttige utviklerverktøy.
 ### Biblioteker
 - [[🛠 Ressurser/DevTools/ApexCharts|ApexCharts]]
 - [[🛠 Ressurser/DevTools/Chakra UI|Chakra UI]]
+* [[🛠 Ressurser/DevTools/Sli.dev|Sli.dev]]
 - [[🛠 Ressurser/DevTools/Scrollmagic js|Scrollmagic js]]
 - [[🛠 Ressurser/DevTools/Parallax js|Parallax js]]
 
