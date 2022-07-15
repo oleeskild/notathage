@@ -9,7 +9,6 @@ Cosmos DB er en NoSql implementasjon av Microsoft. Man kjører det vanligvis i A
 
 Det finnes to typer partisjoneringer: Physical partitions, logical partitions. 
 Physical er den faktisk databaseservere, logical er kontainere som er inndelt innad i en "fysisk" server. 
-Henger ikke helt med på disse konseptene, må undersøke nærmere. 
 
 Strukturen er ca. slik
 ```mermaid
