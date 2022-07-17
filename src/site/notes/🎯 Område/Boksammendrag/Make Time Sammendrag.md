@@ -122,8 +122,7 @@ Penn og papir gjør det lettere å fokusere på oppgaven man skal gjøre. Man sl
 
 #### Arbeidsbenk
 Stadig vekk når man forsøke å konsentrere seg, kjenner man på behov for å sjekke noe. Har jeg fått en ny melding på slack? Hvilken skuespiller spilte i den filmen?
-Istedet for å reagere på hver slik tanke, skriv det ned på et papir. Dette er ting som "Hva koster en pepsi-max kjøleskap på finn? Har noen sendt en epost om møtet på fredag? Har jeg det jeg trenger for å lage middag i kveld?"
-En digital versjon av dette konseptet er beskrevet i [[Prosjekter/Min Arbeidsflyt|Min Arbeidsflyt]] under "On my mind" seksjonen.
+Istedet for å reagere på hver slik tanke, skriv det ned på et papir. Dette er ting som "Hva koster en pepsi-max kjøleskap på finn? Har noen sendt en epost om møtet på fredag? Har jeg det jeg trenger for å lage middag i kveld?". Ved å skrive det ned drar man det ut av hjernen, i visshet om at spørsmålet eller ideen ikke går tapt. 
 
 #### Kjedsomhet
 I to separate studier oppdaget en gruppe forskere ved "Penn State" og "The University of Central Lancashire" at en gruppe mennesker som kjedet seg var bedre på å løse kreative problemer enn en annen gruppe som ikke kjedet seg. Så om man føler seg understimulert: sitt der og kjed deg litt. 
